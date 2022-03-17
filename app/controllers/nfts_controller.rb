@@ -59,4 +59,6 @@ class NftsController < ApplicationController
   def nft_params
     params.require(:nft).permit(:name, :description, :photo, :published, :price)
   end
+  
+  # I m just checking if the push origin master is still working after some config
 end
